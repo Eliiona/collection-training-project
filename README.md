@@ -23,13 +23,6 @@ Build a small Java application that:
 - src/main/resources/data/intake.csv
 - output/processed-files.txt
 
-## Run commands
-Use Maven wrapper (recommended):
-- Windows: ./mvnw.cmd test
-- Windows: ./mvnw.cmd exec:java
-- macOS/Linux: ./mvnw test
-- macOS/Linux: ./mvnw exec:java
-
 ## Required behavior checklist
 - Skip malformed rows and log warnings with SLF4J.
 - Accept blank age as unknown.
